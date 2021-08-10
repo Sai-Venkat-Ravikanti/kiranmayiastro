@@ -1,0 +1,66 @@
+.banner{
+    height: 700px;
+    background-color: grey;
+    background-image: url('starry-sky-2533021_1920.jpg');
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner_content{
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.pad{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.ban__title{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.testimonials{
+    padding: 50px 0px;
+}
+.my-card{
+    
+    margin-left: 10px;
+    
+}
+.group{
+    padding-right: 80px !important;
+    margin-right: 20px !important;
+}
+.service{
+    background-color:red ;
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 70px;
+}
+.card:hover{
+    background-color: grey;
+    transition: .3s ;
+    transform: scale(1.05);
+}
+.img1 , .img2 , .img3 ,.img4 , .img5 , .img6 {
+    height: 150px;
+    width: 150px; 
+}
+.contactform{
+    
+}
+.gender-button{
+    margin-left: 50% !important;
+}
+@media (max-width:576px){
+    body{
+        overflow: hidden;
+    }
+    .contactform{
+        margin-left:auto;
+    }
+}
+
